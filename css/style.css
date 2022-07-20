@@ -10,13 +10,13 @@
 }
 *, *::before ,*::after{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body{
     font-family: var(--primary-font-family);
 }
-.container{
-
-}
+.container{width: 100%;margin: 0 auto;max-width: 1320px;}
 h1, h2, h3, h4, h5, h6{margin: 0 0 15px;}
 p{margin: 0 0 10px;}
 p:last-child{margin-bottom: 0;}
@@ -30,4 +30,12 @@ p:last-child{margin-bottom: 0;}
     border-radius: var(--secondary-border-radius);
     color: var(--primary-white-color);
 
+}
+.hero-banner {
+    background: var(--secondary-color);
+    padding: 33px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
 }
