@@ -44,6 +44,8 @@ p:last-child{margin-bottom: 0;}
     font-size: 20px;
     border-radius: var(--secondary-border-radius);
     color: var(--primary-white-color);
+    transition: all 0.3s ease 0s;
+    width: 190px;
 }
 .row {
     display: grid;
@@ -83,6 +85,14 @@ p:last-child{margin-bottom: 0;}
 
 .hero-content .btn-primary i{
     margin-left: 10px;
+    transition: all 0.3s ease 0s;
+}
+.hero-content .btn-primary:hover{
+    background: var(--primary-white-color);
+    color: var(--primary-color);
+}
+.hero-content .btn-primary:hover i{
+    margin-left: 5px;
 }
 
 .hero-image img {
