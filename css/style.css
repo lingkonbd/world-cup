@@ -154,6 +154,11 @@ p:last-child{margin-bottom: 0;}
     align-items: center;
     margin-bottom: 20px;
 }
+
+.single-macth-card .flag img {
+    width: 94px;
+}
+
 .single-macth-card .flag span{
     font-weight: 700;
 }
