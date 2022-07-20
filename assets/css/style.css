@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #DD0000;
+    --secondary-color: #161616;
+    --primary-white-color: #FFFFFF;
+    --primary-border-radius:10px;
+    --secondary-border-radius:5px;
+    --primary-border-color: #E8E8E8;
+    --primary-font-family: 'Poppins', sans-serif;
+    
+}
+*, *::before ,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--primary-font-family);
+}
+.container{
+
+}
+h1, h2, h3, h4, h5, h6{margin: 0 0 15px;}
+p{margin: 0 0 10px;}
+p:last-child{margin-bottom: 0;}
+
+.btn-primary{
+    display: inline-block;
+    padding: 16px 25px;
+    background: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: var(--secondary-border-radius);
+    color: var(--primary-white-color);
+
+}
